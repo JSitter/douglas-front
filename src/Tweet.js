@@ -9,7 +9,7 @@ constructor(props){
 }
 
 fetchQuote(){
-    fetch('http://douglas-adams-backend.herokuapp.com/')
+    fetch('https://douglas-adams-backend.herokuapp.com/')
     .then((res)=>{
         return res.text()
     }).then((text)=>{
