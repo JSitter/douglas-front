@@ -19,14 +19,15 @@ class App extends Component {
          In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.
           </blockquote>
           <p>
-            Born in England in 1952, Douglas Adams became one of the top science fiction humorists in the world. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Born in England in 1952, Douglas Adams is one of the great humorists of the twentieth century. His unique style and wit has garnered the admiration of people the world over. 
           </p>
 
           <p>
-          Douglas.
+          This generator uses Adam's Hitchhiker's Guide to the Galaxy series as a corpus to generate sentences from. The text is structured as a second order Markov chain which allows the computer to generate random sentences that seem to carry some grammatical structure. This is due to the fact that Markov chains preserve the order that words appear in. 
           </p>
-
-
+          <p>
+            Currently this generator does not save starting and ending tokens. This feature however is coming in the near future. Also planned for the near future is to compare this algorithm with a skip-gram neural network to see which does a better job. 
+          </p>
         </section>
       </div>
     );

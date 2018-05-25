@@ -8,8 +8,11 @@
   border-radius: 5px; */
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  text-shadow: 0 0 10px #000, 0 0 10px #000;
+  /* text-shadow: 0 0 10px #000, 0 0 10px #000; */
+  color: #333;
+  
 }
 
 .tweet > p{
@@ -26,7 +29,7 @@ flt-right{
   float: right;
 }
 
-.modal-btn < div{
+.modal-btn{
   width: auto;
   float: right;
 }
@@ -51,4 +54,8 @@ flt-right{
   width: 500px;
   display: flex;
   justify-content: center;
+}
+.btn{
+  padding: 0px 50px;
+  width: 250px;
 }
