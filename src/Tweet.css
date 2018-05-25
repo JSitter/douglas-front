@@ -1,0 +1,54 @@
+.tweet>*{
+  font-family: "hewitt";
+}
+
+.tweet{
+  /* background-color: rgba(0, 0, 0, .45);
+  padding: 20px 40px;
+  border-radius: 5px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-shadow: 0 0 10px #000, 0 0 10px #000;
+}
+
+.tweet > p{
+  width: auto;
+}
+
+button{
+  font-size: .4em;
+  margin: 10px;
+  vertical-align: middle;
+  background-color: #243f68 !important;
+}
+flt-right{
+  float: right;
+}
+
+.modal-btn < div{
+  width: auto;
+  float: right;
+}
+
+.modal-btn{
+  width: 48%;
+  float: right;
+}
+
+.modal-close{
+  color: white;
+  font-size: .8em;
+  font-family: 'hewitt';
+}
+
+.new-s < div{
+  width: 48%;
+  float: left;
+}
+
+.btn-container{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}

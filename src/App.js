@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Tweet from './Tweet.js'
+import './Tweet.css'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header >
+        <header>
           <h1 className="title">DON'T PANIC</h1>
+
           <Tweet/>
         </header>
 
