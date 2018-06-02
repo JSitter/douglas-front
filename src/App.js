@@ -26,7 +26,7 @@ class App extends Component {
           This generator uses Adam's Hitchhiker's Guide to the Galaxy series as a corpus to generate sentences from. The text is structured as a second order Markov chain which allows the computer to generate random sentences that seem to carry some grammatical structure. This is due to the fact that Markov chains preserve the order that words appear in. 
           </p>
           <p>
-            Currently this generator does not save starting and ending tokens. This feature however is coming in the near future. Also planned for the near future is to compare this algorithm with a skip-gram neural network to see which does a better job. 
+            Currently this generator does not save starting and ending tokens. This feature however is coming in the near future. Also planned is an implementation to use a skip gram neueral network for word selection.
           </p>
         </section>
       </div>
